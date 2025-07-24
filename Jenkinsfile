@@ -9,7 +9,7 @@ pipeline{
 
         stage ('test'){
             steps{
-                sleep 50
+                sleep 60
             }
         }
         stage ('deploy'){
